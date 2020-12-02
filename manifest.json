@@ -1,0 +1,23 @@
+{
+  "name": "LeMonde.fr - Abonnement Banner",
+  "version": "1.0",
+  "description": "Retire la 'Abonne-toi' banner qui bloque la moitié de la page du site",
+  "content_scripts": [
+    {
+      "js": [
+        "script.js"
+      ],
+      "matches": [
+        "https://www.lemonde.fr/",
+        "https://www.lemonde.fr/*"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+    "128": "images/get_started128.png"
+  },
+  "manifest_version": 2
+}
