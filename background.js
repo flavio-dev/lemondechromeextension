@@ -90,15 +90,15 @@ function cleanup() {
     }
 
     if (ayadsLayer) {
-      ayadsLayer.style.display = 'none';
+      ayadsLayer.setAttribute('style', 'display:none !important');
     }
 
     if (ayadsHtml) {
-      ayadsHtml.style.display = 'none';
+      ayadsHtml.setAttribute('style', 'display:none !important');
     }
 
     if (ayadsVideoContainer) {
-      ayadsVideoContainer.style.display = 'none';
+      ayadsVideoContainer.setAttribute('style', 'display:none !important');
     }
   }
 
