@@ -1,15 +1,11 @@
 # lemondechromeextension
 
-La moitié de l'écran de LeMonde.fr est obstruée par une popup pour s'abonner:
+Cette extension l'enleve pubs sur la page d'acceuil et les articles.
 
-![LeMonde.fr](https://i.imgur.com/mzXLJno.png)
-
-Cette extension l'enleve.
-
-Idem avec les articles qui sont pour les abonnés: on ne peux pas lire la fin d'un paragraphe.
+Pour les articles qui sont pour les abonnés: on ne peux pas lire la fin d'un paragraphe.
 
 ![LeMonde.fr](https://i.imgur.com/jcaw2cW.png)
 
-Cette extension montre le dernier paragraphe en entier.
+Cette extension retire cette banner:
 
 ![LeMonde.fr](https://i.imgur.com/s3caDUa.png)
