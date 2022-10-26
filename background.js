@@ -54,7 +54,7 @@ function cleanup() {
     });
   }
 
-  function inreadHidding() {
+  function ongoingHidding() {
     const banniereHaute = document.getElementById(banniereHauteId);
     const banniereBasse = document.getElementById(banniereBasseId);
     const banniereMilieu = document.getElementById(banniereMilieuId);
@@ -84,7 +84,7 @@ function cleanup() {
     }
   }
 
-  setInterval(inreadHidding, 1000);
+  setInterval(ongoingHidding, 1000);
 }
 
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
