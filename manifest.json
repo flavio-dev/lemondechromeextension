@@ -1,20 +1,20 @@
 {
-  "name": "LeMonde.fr - Abonnement Banner",
-  "version": "1.0",
-  "description": "Retire la 'Abonne-toi' banner qui bloque la moitié de la page du site",
-  "content_scripts": [
-    {
-      "js": [
-        "script.js"
-      ],
-      "matches": [
-        "https://www.lemonde.fr/",
-        "https://www.lemonde.fr/*"
-      ]
-    }
+  "name": "Le Monde.fr - ad remover",
+  "action": {},
+  "manifest_version": 3,
+  "version": "2.0",
+  "description": "Retire banners et ads des pages du site",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://www.lemonde.fr/*"
   ],
   "icons": {
     "128": "images/lemondeicon128.png"
-  },
-  "manifest_version": 2
+  }
 }
