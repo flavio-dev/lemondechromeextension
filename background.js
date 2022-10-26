@@ -11,6 +11,9 @@ function cleanup() {
   const friendClass = 'friend';
   const servicesClass = 'area--section-services';
   const opsClass = 'ops__content';
+  const ayadsLayerId = 'ayads-video-layer';
+  const ayadsVideoContainerId = 'ayads-video-container';
+  const ayadsHtmlId = 'ayads-html';
 
   const articleMediaHeight = document.getElementsByClassName(articleHeightMediaClass)[0];
   const articleHeight = document.getElementsByClassName(articleHeightClass)[0];
@@ -59,6 +62,9 @@ function cleanup() {
     const banniereBasse = document.getElementById(banniereBasseId);
     const banniereMilieu = document.getElementById(banniereMilieuId);
     const leaderboardSkin = document.getElementById(leaderboardSkinId);
+    const ayadsLayer = document.getElementById(ayadsLayerId);
+    const ayadsHtml = document.getElementById(ayadsHtmlId);
+    const ayadsVideoContainer = document.getElementById(ayadsVideoContainerId);
     const dfpInreadList = document.getElementsByClassName(dfpInreadClass);
 
     if (dfpInreadList) {
@@ -81,6 +87,18 @@ function cleanup() {
 
     if (leaderboardSkin) {
       leaderboardSkin.style.display = 'none';
+    }
+
+    if (ayadsLayer) {
+      ayadsLayer.style.display = 'none';
+    }
+
+    if (ayadsHtml) {
+      ayadsHtml.style.display = 'none';
+    }
+
+    if (ayadsVideoContainer) {
+      ayadsVideoContainer.style.display = 'none';
     }
   }
 
